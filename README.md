@@ -1,2 +1,4 @@
 # SAPDKeys
 Police keybinds made for Argonath SAPD
+
+PLEASE NOTE THAT YOU MAY HAVE TO RUN AS ADMINISTRATOR FOR IT TO WORK!
