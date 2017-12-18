@@ -42,19 +42,17 @@ return
 
 
 Numpad2::
-if ( isInChat() )
+if ( IsInChat() )
 	return
-pos := getCoordinates()
-sendChatMessage("/r " calculateZone(pos[1],pos[2],pos[3]))
+SendChat("/r " GetPlayerZone())
 return
 
 NumpadMult::
-if ( isInChat() )
+if ( IsInChat() )
 	return
-pos := getCoordinates()
-sendChatMessage("/r " getPlayerDirection() " from " calculateZone(pos[1],pos[2],pos[3]))
+SendChat("/r " getPlayerDirection() " from " GetPlayerZone())
 return
 
 NumpadDiv::
-	sendChatMessage("/opentoll")
+	SendChat("/opentoll")
 return
