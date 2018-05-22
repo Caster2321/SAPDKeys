@@ -41,13 +41,13 @@ return
 ;#########################################################################################################
 
 
-Numpad2::
+F5::
 if ( IsInChat() )
 	return
 SendChat("/r " GetPlayerZone())
 return
 
-NumpadMult::
+F6::
 if ( IsInChat() )
 	return
 SendChat("/r " getPlayerDirection() " from " GetPlayerZone())
